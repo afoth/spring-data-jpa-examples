@@ -80,7 +80,6 @@ class Child {
     Long id;
 
     @OneToOne
-    @MapKey
     Parent parent;
 }
 
